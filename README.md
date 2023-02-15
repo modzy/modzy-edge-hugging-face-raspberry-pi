@@ -121,6 +121,6 @@ After following this portion of the notebook, you will have built and published 
 
 ## Run Model on Pi with Modzy Edge
 
-In this section, we will leverage [Modzy's](https://modzy.com) Edge capability to deploy and run this model on an edge device. In this [similar repository](https://github.com/modzy/hugging-face-raspberry-pi), we explore performing this same set of actions directly with Docker and gRPC. But in this scenario, Modzy's edge capability allows you to scale this model to as many devices as you need, serve and consume them through a standard API, and fully manage the model in production, regardless of where the model is running.
+In this section, we will leverage [Modzy's](https://modzy.com) Edge capability to deploy and run this model on an edge device. In this [similar repository](https://github.com/modzy/hugging-face-raspberry-pi), we explore performing this same set of actions directly with Docker and gRPC. But in this scenario, Modzy's edge capability allows you to scale this model to as many devices as you need, serve and consume them through a standard API, and fully manage the model in production, regardless of where the model is running. Remember to use port `55000`!
 
 For the full tutorial and instructions, visit https://docs.modzy.com.
